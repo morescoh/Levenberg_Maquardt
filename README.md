@@ -32,7 +32,7 @@ As condições teóricas para o método bem como uma análise com respeito ao pa
 ## Dependências
 
 
-* `Put_in_vector.jl`: tem como objetivo criar a função $R$ como na `Apresentação` a partir da função modelo $f$. O arquivo contém uma função com três entradas:
+* `Put_in_vector.jl`: tem como objetivo criar a função $R$ como na [Apresentação](## Apresentaç) a partir da função modelo $f$. O arquivo contém uma função com três entradas:
     - Uma `matriz` $A$ de dimensão $n \times 2$ com entradas em `::Float64`;
     -  Uma `função` $f: \mathbb{R} \times \mathbb{R}^k \rightarrow \mathbb{R}$ como a função modelo;
     -  Um `vetor` $t_0$ de dimensão $k$.
