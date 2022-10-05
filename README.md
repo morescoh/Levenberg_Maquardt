@@ -1,9 +1,9 @@
 # Método de Levenberg-Maquardt para Quadrados Mínimos
 
-==============================================
+
 ## Apresentação
 
-==============================================
+
 
 Apresentamos uma implementação para o método de Levenberg-Maquardt para resolução do problema de quadrados mínimos na linguagem de programação [julia](https://julialang.org/). A partir de um conjunto de dados representados em uma matriz $A$ de dimensão $n \times 2$ em que cada linha representa: na primeira coluna o $\textit{input}$ e na segunda coluna o $\textit{output}$ de uma função a ser modelada. O método utiliza uma função modelo $f: \mathbb{R} \times \mathbb{R}^k \rightarrow \mathbb{R}$ e busca encontrar um parâmetro ótimo para que a função modelo melhor se aproxime dos dados fornecidos pela matriz $A$. Para isso, definimos $R: \mathbb{R}^k \rightarrow \mathbb{R}^n$ pondo 
 
@@ -20,18 +20,18 @@ As condições teóricas para o método bem como uma análise com respeito ao pa
 
 
 
-==============================================
+
 ## Instalação
-==============================================
+
 
 É além do julia propriamente dito é necessário ter instalado em seu computador o seguinte pacote:
 
  - [ForwardDiff](https://github.com/JuliaDiff/ForwardDiff.jl)
 
-==============================================
+
 ## Dependências
 
-==============================================
+
 * `Put_in_vector.jl`: tem como objetivo criar a função $R$ como na `Apresentação` a partir da função modelo $f$. O arquivo contém uma função com três entradas:
     - Uma `matriz` $A$ de dimensão $n \times 2$ com entradas em `::Float64`;
     -  Uma `função` $f: \mathbb{R} \times \mathbb{R}^k \rightarrow \mathbb{R}$ como a função modelo;
@@ -42,11 +42,10 @@ As condições teóricas para o método bem como uma análise com respeito ao pa
     
 
 
-==============================================
+
 
 ## Utilização do arquivo `Levenberg-Maquardt.jl`
 
-==============================================
 
 Para utilizar o algoritmo é necessário compilar o arquivo `Load_packs.jl` para carregar os pacotes do julia e as dependências da pasta `DEPENDENCIES`.
 
