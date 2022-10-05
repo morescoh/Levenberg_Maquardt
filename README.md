@@ -37,7 +37,7 @@ As condições teóricas para o método bem como uma análise com respeito ao pa
     -  Uma `função` $f: \mathbb{R} \times \mathbb{R}^k \rightarrow \mathbb{R}$ como a função modelo;
     -  Um `vetor` $t_0$ de dimensão $k$.
 
-* `Differentiation.jl`: tem como objetivo calcular a derivada de $R$ como na `Apresentação` no parâmetro $t_0$. O arquivo contém uma função com as mesmas entradas da função em `Put_in_vector.jl`
+* `Differentiation.jl`: tem como objetivo calcular a derivada de $R$ como na [Apresentação](#Depnd) no parâmetro $t_0$. O arquivo contém uma função com as mesmas entradas da função em `Put_in_vector.jl`
     
     
 
