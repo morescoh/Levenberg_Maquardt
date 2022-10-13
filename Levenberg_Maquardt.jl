@@ -1,4 +1,4 @@
-function Levenberg_Maquardt(A, f, dim, PD = 4, ε = 1.0e-5,  itmax = 1000)
+function Levenberg_Maquardt(A, f, dim, PD = 5, ε = 1.0e-5,  itmax = 1000)
     k      = 0
     y      = rand(Int32(dim))
     R(z)   = Put_in_vector(A,f,z)
