@@ -65,10 +65,7 @@ O retorno do algoritmo são, nesta ordem, um vetor com os parâmetros para a fun
  
  # Método de Levenberg-Maquardt para Quadrados Mínimos -- Análise do Parâmetro de Damping
 
-==============================================
 ## Apresentação
-
-==============================================
 
 Buscamos analisar a eficiência de algumas propostas para parâmetro de Damping no método de Levenberg-Maquardt implementado em [Método de Levenberg-Maquardt para Quadrados Mínimos](https://github.com/morescoh/Levenberg_Maquardt.git). A análise é feita baseada em uma base de [problemas testes](https://u.pcloud.link/publink/show?code=XZCY8jVZ1WK4Mso5V2B8fVDqzai9mFaWxJQ7). Os arquivos necessários para realizar essa análise estão na pasta `TEST` e arquivos no formato dos contidos no arquivo [problemas testes](https://u.pcloud.link/publink/show?code=XZCY8jVZ1WK4Mso5V2B8fVDqzai9mFaWxJQ7). Inicialmente, é preciso carregar os pacotes necessários incluindo o arquivo `Load_packs.jl` utilizando o comando
 ```
