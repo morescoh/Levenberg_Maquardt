@@ -83,3 +83,4 @@ onde $n$ é no formato `::Int64` um número de $1$ à $5$. Por fim, basta utiliz
 ```
 include("Comparation.jl")
 ```
+O retorno será um vetor contendo o número iterações para cada um dos problemas e a média dos valores nesse vetor.
