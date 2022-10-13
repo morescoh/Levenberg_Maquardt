@@ -56,7 +56,7 @@ O algoritmo tem como entradas obrigatórias, nesta ordem:
  * A dimensão $k$ que representa o número de parâmetros que o modelo apresenta.
 
 Os entradas opcionais vem logo em seguida sendo:
- * `Parâmetro de Damping`. Apresentamos cinco alternativas para o parâmetro de Damping que serão inseridas a partir de um dos números $1,2,3,4$ e $5$ no formato `::Int32`, o padrão é a opção $4$. Caso o usuário prefira usar um parâmetro de Damping fixo basta inseri-lo no formato `::Float64`. Para ver o os parâmetros de Damping representados pelos números $1,2,3,4$ e $5$, veja o arquivo `theory.pdf`;
+ * `Parâmetro de Damping`. Apresentamos cinco alternativas para o parâmetro de Damping que serão inseridas a partir de um dos números $1,2,3,4$ e $5$ no formato `::Int32`, o padrão é a opção $5$. Caso o usuário prefira usar um parâmetro de Damping fixo basta inseri-lo no formato `::Float64`. Para ver o os parâmetros de Damping representados pelos números $1,2,3,4$ e $5$, veja o arquivo `theory.pdf`;
  * `Precisão de parada`, o padrão é $10^{-5}$;
  * `Número máximo de iterações`, o padrão é $1000$.
 
